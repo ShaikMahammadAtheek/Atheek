@@ -1,6 +1,12 @@
 {
-    "build": "npm install && npm run build",
-    "start": "npm start",
+    "build": {
+      "command": "npm install && npm run build",
+      "output": "build"
+    },
+    "start": {
+      "command": "npm start"
+    },
     "healthcheckPath": "/api/health",
     "cron": "*/5 * * * *"
-  }
+}
+  
