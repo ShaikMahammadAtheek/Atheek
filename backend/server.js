@@ -125,7 +125,7 @@ const port = process.env.PORT || 5000;
 const Job = require('./models/job.model');
 
 // Middleware
-app.use(cors({ origin: 'https://jobshustles.onrender.com' }));
+app.use(cors({ origin: 'https://jobshustless.onrender.com' }));
 app.use(express.json());
 app.use(bodyParser.json());
 
